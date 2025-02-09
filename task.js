@@ -99,3 +99,13 @@ while (countdownStart > 64) {
 /* 
 Write a loop that goes from 1 to 100, but stops (using break) when it encounters the first square number (like 4, 9, 16, etc.)
 */
+let nums1 = 2;
+console.log(Number.isInteger(Math.sqrt(nums1)));
+
+for (let i = 1; i < 100; i++) {
+  if (Number.isInteger(Math.sqrt(i))) {
+    console.log("Square root is integer: ", i);
+    continue;
+  }
+  console.log("Square root is not a integer", i);
+}
