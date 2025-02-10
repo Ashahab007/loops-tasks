@@ -106,11 +106,11 @@ let inputNums = 99;
 console.log(Math.sqrt(inputNums));
 
 for (let i = 1; i <= 100; i++) {
-  if (Number.isInteger(Math.sqrt(i))) {
+  if (Number.isInteger(Math.sqrt(i)) && i != 1) {
     console.log("Square root is integer: ", i);
-    // continue;
-  } else {
-    console.log("Square root is not an integer", i);
+    break;
   }
+  // else {
+  //   console.log("Square root is not an integer", i);
+  // }
 }
-
