@@ -98,7 +98,7 @@ while (countdownStart > 64) {
 
 /* 
 Write a loop that goes from 1 to 100, but stops (using break) when it encounters the first square number (like 4, 9, 16, etc.) 
-Note: there is some confusion need regarding this problem to discuss with Programminghero
+
 */
 
 let inputNums = 99;
